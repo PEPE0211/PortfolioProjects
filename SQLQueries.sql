@@ -2,10 +2,6 @@ select *
 From PortfolioProject..CovidDeaths
 order by 3,4
 
---select *
---From PortfolioProject..CovidVaccinations
---order by 3,4
-
 select Location,Date , total_cases,new_cases,total_deaths,population
 From PortfolioProject..CovidDeaths
 Where continent is not null
@@ -20,7 +16,7 @@ order by 1,2
 -- Total Cases vs the Population
 select Location,Date ,population, total_cases, (CONVERT(float, total_cases) /NULLIF(CONVERT(float, population), 0))*100 as CasePercentage
 From PortfolioProject..CovidDeaths
-Where location like '%Afghanistan%'
+Where location like '%Canada%'
 order by 1,2
 
 select Location,population, MAX(CONVERT(float, total_cases)) as HighestCases, MAX(CONVERT(float, total_cases) /NULLIF(CONVERT(float, population), 0))*100 as CasePercentage
@@ -86,3 +82,19 @@ and vac.new_vaccinations is not null
 
 Select * 
 From PercentageOfVaccinations
+
+Create View HighestDeathCount as 
+select Location, MAX(CONVERT(int, total_deaths)) as HighestDeathCounrt
+From PortfolioProject..CovidDeaths
+Where continent is not null
+Group by Location
+
+Create View GlobalDeathPercentage as
+select SUM(new_cases) as GlobalTotalCases, SUM(CONVERT(int, new_deaths)) as GlobalTotalDeaths, SUM(CONVERT(int, new_deaths)) / SUM(NULLIF(CONVERT(float, new_cases),0))*100 as GlobalDeathPercentage
+From PortfolioProject..CovidDeaths
+Where continent is not null
+
+Create View TotalPercentageofCasesCanada as
+select Location,Date ,population, total_cases, (CONVERT(float, total_cases) /NULLIF(CONVERT(float, population), 0))*100 as CasePercentage
+From PortfolioProject..CovidDeaths
+Where location like '%Canada%'
