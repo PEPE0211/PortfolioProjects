@@ -1,5 +1,4 @@
 /*
-
 Cleaning Data in SQL
 */
 
