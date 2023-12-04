@@ -26,13 +26,13 @@ Python Projects
 
 ## Technologies Used
 
-MySQL
-Python
-Numpy
-Matplotlib
-Scikit-learn
-Machine learning 
-Artificial neural networks
+-MySQL
+-Python
+-Numpy
+-Matplotlib
+-Scikit-learn
+-Machine learning 
+-Artificial neural networks
 
 ## Contact
 
