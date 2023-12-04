@@ -13,6 +13,7 @@ SQL Projects
   
   
 Python Projects
+
 3. ** Automated API Extraction **
    - Automated a cryptocurrency website API pull project using Python, demonstrating proficiency in web scraping and data manipulation. The streamlined process delivers real-time market insights, showcasing strong coding and automation skills in the realm of crypto analytics
 5. ** Movies Correlation  **
