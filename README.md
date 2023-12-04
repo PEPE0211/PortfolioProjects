@@ -5,10 +5,10 @@ This repository contains a collection of data analysis and data science projects
 ## Projects
 
 SQL Projects
-1. * Data Exploration*
+1.  Data Exploration
    - In this project, we employed SQL to explore a global Covid-19 dataset, conducting thorough analysis and extracting valuable insights. Our proficiency in using targeted queries allowed us to uncover key trends and patterns, providing a nuanced understanding of the pandemic landscape. This project exemplifies our hands-on experience in efficiently analyzing complex datasets, demonstrating our capability to derive actionable insights from large and dynamic data sources.
 
-2. * Data Cleaning *
+2.  Data Cleaning 
    - In this project, we conducted SQL-based data cleaning on Nashville housing data to address missing values, outliers, and inconsistencies. Through targeted queries, we standardized formats, refined data types, and implemented logical corrections, ensuring a more accurate dataset. This meticulous cleaning process laid the groundwork for subsequent analysis and reporting, contributing to the overall quality and efficacy of the project's data.
   
   
