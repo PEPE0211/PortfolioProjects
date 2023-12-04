@@ -14,11 +14,11 @@ SQL Projects
   
 Python Projects
 
-3. ** Automated API Extraction **
+1. ** Automated API Extraction **
    - Automated a cryptocurrency website API pull project using Python, demonstrating proficiency in web scraping and data manipulation. The streamlined process delivers real-time market insights, showcasing strong coding and automation skills in the realm of crypto analytics
-5. ** Movies Correlation  **
+2. ** Movies Correlation  **
    - In this project, we harnessed Python to analyze a Kaggle movie industry dataset. Utilizing libraries like Pandas and Matplotlib, we explored correlations between factors such as genres, budgets, and box office performances. This project highlights our team's proficiency in extracting meaningful insights from diverse datasets through efficient Python programming and statistical analysis.
-7. ** Music Genre Detection **
+3. ** Music Genre Detection **
    - Exploring the intersection of music and machine learning, this project utilizes the GTZAN dataset to train models for accurate genre classification. Leveraging Python, Librosa, and Scikit-learn, it showcases my skills in audio feature extraction, model training, and evaluation. Dive into the project structure to witness the seamless fusion of technology and musical analysis.    
 
 ## Technologies Used
