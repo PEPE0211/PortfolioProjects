@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Data Analyst Portfolio
 
 This repository contains a collection of data analysis and data science projects that showcase my skills and expertise in working with real-world datasets. Each project is designed to demonstrate different aspects of data exploration, analysis, and visualization.
 
